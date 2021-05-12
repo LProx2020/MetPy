@@ -87,7 +87,7 @@ jobs:
         path: test_output/
 
     - name: Upload coverage
-      uses: codecov/codecov-action@v1
+      uses: codecov/codecov-action@v1.5.0
 
   #
   # Run all tests on Linux using standard PyPI packages, including min and pre-releases
@@ -173,7 +173,7 @@ jobs:
         path: test_output/
 
     - name: Upload coverage
-      uses: codecov/codecov-action@v1
+      uses: codecov/codecov-action@v1.5.0
 
   #
   # Build our docs on Linux against multiple Pythons, including pre-releases
